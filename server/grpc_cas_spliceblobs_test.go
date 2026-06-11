@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 
-	pb "github.com/buchgr/bazel-remote/v2/genproto/build/bazel/remote/execution/v2"
+	pb "github.com/bazelbuild/remote-apis/build/bazel/remote/execution/v2"
 )
 
 // Create a test cache populated with "hello" and "world" blobs.
@@ -142,8 +142,8 @@ func TestSpliceBlobCapability(t *testing.T) {
 		t.Fatal("expected non-nil *CacheCapabilities")
 	}
 
-	if !cacheCapabilities.BlobSpliceSupport {
-		t.Fatal("expected CacheCapabilities.BlobSpliceSupport to be true")
+	if !cacheCapabilities.SpliceBlobSupport {
+		t.Fatal("expected CacheCapabilities.SpliceBlobSupport to be true")
 	}
 }
 

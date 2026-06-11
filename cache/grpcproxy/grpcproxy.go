@@ -18,8 +18,8 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/proto"
 
-	asset "github.com/buchgr/bazel-remote/v2/genproto/build/bazel/remote/asset/v1"
-	pb "github.com/buchgr/bazel-remote/v2/genproto/build/bazel/remote/execution/v2"
+	asset "github.com/bazelbuild/remote-apis/build/bazel/remote/asset/v1"
+	pb "github.com/bazelbuild/remote-apis/build/bazel/remote/execution/v2"
 	bs "google.golang.org/genproto/googleapis/bytestream"
 )
 

@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/buchgr/bazel-remote/v2/cache"
-	pb "github.com/buchgr/bazel-remote/v2/genproto/build/bazel/remote/execution/v2"
+	pb "github.com/bazelbuild/remote-apis/build/bazel/remote/execution/v2"
 )
 
 // TempDir creates a temporary directory and returns its name. If an error

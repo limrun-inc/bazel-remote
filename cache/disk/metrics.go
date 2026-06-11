@@ -6,7 +6,7 @@ import (
 
 	"github.com/buchgr/bazel-remote/v2/cache"
 
-	pb "github.com/buchgr/bazel-remote/v2/genproto/build/bazel/remote/execution/v2"
+	pb "github.com/bazelbuild/remote-apis/build/bazel/remote/execution/v2"
 
 	"github.com/prometheus/client_golang/prometheus"
 )
